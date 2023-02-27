@@ -46,16 +46,16 @@ def main():
         print("saliendo")
     else:
         if opcion == 1:
-            print(num1, "+", num2, "=", Sumar(leerEntero("num1:"), leerEntero("num2:")))
+            print(Sumar(leerEntero("num1:"), leerEntero("num2:")))
         else:
             if opcion == 2:
-                print(num1, "-", num2, "=", Restar(leerEntero("num1:"), leerEntero("num2:")))
+                print(Restar(leerEntero("num1:"), leerEntero("num2:")))
             else:
                 if opcion == 3:
-                    print(num1, "*", num2, "=", Multiplicar(leerEntero("num1:"), leerEntero("num2:")))
+                    print(Multiplicar(leerEntero("num1:"), leerEntero("num2:")))
                 else:
                     if opcion == 4:
-                        print(num1, "/", num2, "=", Dividir(leerEntero("num1:"), leerEntero("num2:")))
+                        print(Dividir(leerEntero("num1:"), leerEntero("num2:")))
                     else:
                         print("opcion invalida")
 
